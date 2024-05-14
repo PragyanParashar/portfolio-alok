@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragyan Kumar Parashar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0215b9af45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img src="" class="logo"> -->
+                <div class="logo"><h1><span>P</span>ragyan.</h1></div>
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about" >About</a></li>
+                    <li><a href="#services" >Services</a></li>
+                    <li><a href="#portfolio" >Portfolio</a></li>
+                    <li><a href="#contact" >Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software engineer</p>
+                <h1>Hi, I'm <span>Pragyan</span><br>kumar parashar</h1>
+            </div>
+        </div>
+    </div>
+
+<!--  About  -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is Pragyan kumar parashar. I am from Muzaffar(Bihar). I have pursuing my bachelor's degree in Compurter science and engineering from Galgotias University. My strengths are i am a hard working, self motivated person and i have a strong communication skills also i am a quick learner. My short term goal is to get a job in reputed company and long term goal is to achieve good position in that company where i build my carrer and help the organization too.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links"onclick="opentab('experience')">Experiences </p>  -->
+                        <!-- <p class="tab-links about-col-2" onclick="opentab('education')">Education</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software engineer</span><br>software Developer</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents about-col-2" id="education">
+                        <ul>
+                            <li><span>Bachelor degree</span><br>Galgotias University(2021-2025)</li>
+                            <li><span>12th</span><br>Resonance International School (2019-2021)</li>
+                            <li><span>10th</span><br>Holy Mission Sr. Sec. School (2019)</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software <br> Engineer</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                 <!--   <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Web app Development</h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                  <!--  <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Android app development </h2>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+                  <!--  <a href="#">Learn more</a> -->
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <!---Portfolio-->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/blog.jpg">
+                    <div class="layer">
+                        <h3>Blog App</h3>
+                        <p>Created a MERN-based blog application allowing content uploads with images.<br>
+                           Added features such as Edit, Delete, and Update.
+                            </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/e-commerce.jpg">
+                    <div class="layer">
+                        <h3>E-Commerce</h3>
+                        <p>Developed a MERN-based web application for an e-commerce clothing brand facilitating online product delivery.
+                           
+                            </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/blood.jpg">
+                    <div class="layer">
+                        <h3>Blood Bank Management System</h3>
+                        <p>Developed a MERN-based web application for hospitals so they can se the data related to blood </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a> 
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:pragyanprashar@gmail.com">pragyanprashar@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i><a href="+917982671791">+91 7982671791</a></p>
+                    <p><i class="fa-brands fa-square-whatsapp"></i><a href=" https://wa.me/+919471296420">+91 9471296420</a></p>
+                    <div class="social-icons">
+                        <a href="https://leetcode.com/u/pragyanprashar/"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://www.linkedin.com/in/pragyan1592/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/PragyanParashar"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/alok____1592/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/PRAGYAN KR PARASHAR(B.Tech) - CV pdf.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-left">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © pragyan.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links") ;
+        var tabcontents = document.getElementsByClassName("tab-contents") ;
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            } 
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab" );
+            }
+            // event.currentTarget.classlist.add("active-link");
+            // document.getElementById("education").classlist.add("active-tab") ;  
+        }
+     
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    
+</body>
+</html>
